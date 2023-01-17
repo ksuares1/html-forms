@@ -7,23 +7,44 @@
     <title>HTML Elements</title>
     <link rel="stylesheet" href="style.css" />
     <style>
-      h1, u{
-        color:red;
+      body{
+        background-color:#f5f0fe;
+      }
+      h1{
+        color:#885df1;
         font-size:48px;
         font-weight:thin;
         text-decoration:underline;
+      }
+      .first-item{
+        color:blue;
+      }
+      .second-item{
+        color:red;
+      }
+
+      .third-item{
+        color:green;
+      }
+      h2{
+        font-weight: bold;
+      }
+      div{
+        text-align:center;
       }
     </style>
   </head>
 
   <body>
-  
-    <h1>SheCodes</h1>
     
+    <div>
+    <h1>SheCodes</h1>
+    <h2>Coding Workshop</h2>
+    </div>
 
     <ul>
       <li>
-        <a
+        <a class="first-item"
           href="https://www.shecodes.io/students"
           alt="image of alumni"
           target="_blank"
@@ -32,7 +53,7 @@
         </a>
       </li>
       <li>
-        <a
+        <a class="second-item"
           href="https://www.shecodes.io/workshops"
           alt="shecodes workshops"
           target="_blank"
@@ -41,7 +62,7 @@
         </a>
       </li>
       <li>
-        <a
+        <a class="third-item"
           href=" https://www.shecodes.io/stories"
           alt="alumni stories"
           target="_blank"
